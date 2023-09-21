@@ -27,4 +27,8 @@ nav {
 }
 h1 {
     margin: 20px;
+    border: dotted;
+}
+img {
+    max-width: 70%;
 }
