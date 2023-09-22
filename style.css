@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
@@ -13,17 +14,14 @@ h1 {
 }
 nav {
     background-color: rgb(50, 52, 55);
-    color: rgb(193, 196, 198);
+    color: rgb(145, 147, 148);
 }
 footer {
-    background-color: rgb(80, 87, 87);
     color: rgb(193, 196, 198);
+    width: 100%;
 }
 nav {
     color: white;
-}
-*{
-    text-align: center;
 }
 h1 {
     margin: 20px;
@@ -31,4 +29,15 @@ h1 {
 }
 img {
     max-width: 70%;
+    display: block;
+}
+li {
+    background-color: rgb(150, 146, 146);
+}
+a:hover {
+    background-color: darkgray;
+}
+.foot {
+    background-color: #990000;
+    border-style: solid;
 }
