@@ -7,44 +7,51 @@
 body {
     background-color: rgb(80, 87, 87);
 }
+
 h1 {
     background-color: rgb(50, 52, 55);
     color: white;
     text-align: center;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
 }
+
 h2, p {
     color: white;
 }
+
 nav {
     background-color: rgb(50, 52, 55);
     color: rgb(145, 147, 148);
     color: white;
     text-align: center;
 }
+
 footer {
     color: rgb(193, 196, 198);
     width: 100%;
     text-align: center;
 }
-h1 {
-    margin: 20px;
-    border: 2px solid;
-    border-radius: 10px;
-}
+
 img {
     max-width: 70%;
     display: block;;
 }
+
 li {
     background-color: rgb(50, 52, 55);
 }
+
 nav a:hover {
     background-color: rgb(80, 80, 80);
 }
+
 .foot {
     background-color: #990000;
     border-style: solid;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -54,28 +61,28 @@ ul {
     border: 1px solid #555;
     overflow: hidden;
     background-color: rgb(50, 52, 55);
-  }
+}
+
   li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-  }
-  .active {
-    background-color: #04AA6D;
+}
+
+.active {
+    background-color: #990000;
     color: white;
-  }
-  li {
+}
+
+li {
     float: left;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  .active {
-    background-color: #4CAF50;
-  }
+}
