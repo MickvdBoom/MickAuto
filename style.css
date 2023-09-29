@@ -9,16 +9,14 @@ body {
 }
 
 h1 {
-    background-color: rgb(50, 52, 55);
     color: white;
     text-align: center;
-    margin: 20px;
-    border: 2px solid;
-    border-radius: 10px;
 }
 
-h2, p {
+p {
     color: white;
+    padding-left: 1.5%;
+    padding-right: 40%;
 }
 
 nav {
@@ -28,34 +26,28 @@ nav {
     text-align: center;
 }
 
-footer {
-    color: rgb(193, 196, 198);
-    width: 100%;
-    text-align: center;
+nav a:hover {
+    background-color: rgb(80, 80, 80);
 }
 
-img {
-    max-width: 70%;
-    display: block;;
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li {
     background-color: rgb(50, 52, 55);
 }
 
-nav a:hover {
-    background-color: rgb(80, 80, 80);
-}
-
-.foot {
-    background-color: #990000;
-    border-style: solid;
-}
-
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     width: 100%;
     top: 0;
     border: 1px solid #555;
@@ -70,19 +62,25 @@ ul {
     text-decoration: none;
 }
 
+footer {
+    color: rgb(193, 196, 198);
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 70%;
+    display: block;
+    padding-left: 1.5%;
+    padding-bottom: 25px;
+}
+
+footer {
+    background-color: #990000;
+    border-style: solid;
+}
+
 .active {
     background-color: #990000;
     color: white;
-}
-
-li {
-    float: left;
-}
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
