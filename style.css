@@ -8,6 +8,7 @@ body {
     background-color: rgb(80, 87, 87);
     background-image: url(afbeeldingen/pngtree-racing-car-is-going-at-speeds-down-an-asphalt-racetrack-picture-image_3413956.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
