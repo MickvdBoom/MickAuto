@@ -6,18 +6,20 @@
 
 body {
     background-color: rgb(80, 87, 87);
-    background-image: url(afbeeldingen/pngtree-racing-car-is-going-at-speeds-down-an-asphalt-racetrack-picture-image_3413956.jpg);
+    background-image: url(afbeeldingen/race-track.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* Bron achtergrond:https://www.freepik.com/premium-photo/abstract-texture-surface-background-car-tire-drift-skid-mark-road-race-track-black-tire-mark-street-race-track-automobile-automotive-concept_39212346.htm#page=2&query=race%20track&position=22&from_view=search&track=ais */
 
 h1 {
-    color: #990000;
+    color: white;
     text-align: center;
 }
 
 h2 {
     color: white;
+    padding-left: 1%;
 }
 
 p {
@@ -31,67 +33,16 @@ nav {
     text-align: center;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
+img {
+    padding-top: 3px;
+    padding-right: 7px;
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+header img {
+    transition: transform .7s ease-in-out;
 }
-
-tr:nth-child(even) {
-    background-color: #990000;
-}
-
-.homeflex {
-    display: flex;
-    justify-content: center;
-    margin-top: 75px;
-    text-align: center;
-}
-
-.homeflex img {
-    width: 60%;
-    height: 60%;
-}
-
-.homeflex h2, p {
-    flex-direction: column;
-}
-
-.aeroflex {
-    display: flex;
-    text-align: center;
-}
-
-.aeroflex img {
-    width: 60%;
-    height: 60%;
-}
-
-.interieurflex {
-    display: flex;
-    text-align: center;
-}
-
-.interieurflex img {
-    height: 60%;
-    width: 60%;
-}
-
-nav a:hover {
-    background-color: rgb(80, 80, 80);
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+header img:hover {
+    transform: rotate(360deg);
 }
 
 li {
@@ -108,6 +59,78 @@ ul {
     background-color: rgb(50, 52, 55);
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #990000;
+    opacity: 0.8;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(50, 52, 55);
+    opacity: 0.8;
+}
+
+.homeflex {
+    display: flex;
+    margin-top: 75px;
+    text-align: left;
+}
+
+.homeflex img {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 100px;
+}
+
+.homeflex h2, p {
+    flex-direction: column;
+}
+
+.aeroflex {
+    display: flex;
+    text-align: left;
+}
+
+.aeroflex img {
+    width: 40%;
+    height: 40%;
+}
+
+.interieurflex {
+    display: flex;
+    text-align: left;
+}
+
+.interieurflex img {
+    height: 40%;
+    width: 40%;
+}
+
+nav a:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 li a {
     display: block;
     padding: 8px 16px;
@@ -122,9 +145,6 @@ footer {
     color: rgb(193, 196, 198);
     width: 100%;
     text-align: center;
-}
-
-footer {
     background-color: #990000;
     border-style: solid;
 }
@@ -133,9 +153,3 @@ footer {
     background-color: #990000;
     color: white;
 }
-
-img {
-    padding-top: 3px;
-    padding-right: 7px;
-}
-
