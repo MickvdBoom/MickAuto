@@ -7,10 +7,11 @@
 body {
     background-color: rgb(80, 87, 87);
     background-image: url(afbeeldingen/pngtree-racing-car-is-going-at-speeds-down-an-asphalt-racetrack-picture-image_3413956.jpg);
+    background-repeat: no-repeat;
 }
 
 h1 {
-    color: white;
+    color: #990000;
     text-align: center;
 }
 
@@ -29,6 +30,21 @@ nav {
     text-align: center;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #990000;
+}
+
 .homeflex {
     display: flex;
     justify-content: center;
@@ -39,6 +55,10 @@ nav {
 .homeflex img {
     width: 60%;
     height: 60%;
+}
+
+.homeflex h2, p {
+    flex-direction: column;
 }
 
 .aeroflex {
