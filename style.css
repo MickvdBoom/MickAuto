@@ -6,11 +6,7 @@
 
 body {
     background-color: rgb(80, 87, 87);
-    background-image: url(afbeeldingen/race-track.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-/* Bron achtergrond:https://www.freepik.com/premium-photo/abstract-texture-surface-background-car-tire-drift-skid-mark-road-race-track-black-tire-mark-street-race-track-automobile-automotive-concept_39212346.htm#page=2&query=race%20track&position=22&from_view=search&track=ais */
 
 h1 {
     color: white;
@@ -21,27 +17,36 @@ h1 {
 
 h2 {
     color: white;
-    padding-left: 1%;
+    margin-left: 20px;
     font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 p {
     color: white;
-    padding-left: 1.5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:  sans-serif;
     background-color: #B12B28;
-    opacity: 0.8;
+    opacity: 85%;
     border-radius: 10px;
     margin-top: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 img {
     padding-top: 3px;
     padding-right: 7px;
+    border-radius: 20px;
 }
 
 header img {
     transition: transform .7s ease-in-out;
+    border-radius: 0px;
 }
 header img:hover {
     transform: rotate(360deg);
@@ -92,11 +97,14 @@ footer {
     bottom: 0;
 }
 
+footer p {
+    padding: 5px;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 100px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 td, th {
@@ -142,6 +150,7 @@ tr:nth-child(odd) {
     height: 40%;
     padding-right: 3%;
     padding-left: 3%;
+    margin-bottom: 80px;
 }
 
 .interieurflex {
@@ -151,8 +160,99 @@ tr:nth-child(odd) {
 }
 
 .interieurflex img {
-    height: 40%;
-    width: 40%;
+    max-width: 40%;
     padding-right: 3%;
     padding-left: 3%;
+    margin-bottom: 50px;
+}
+
+.homeinfo h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.homeinfo p {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.homeinfo img {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nurburgring {
+    display: flex;
+}
+
+.nurburgring img {
+    max-width: 40%;
+    margin-bottom: 100px;
+}
+
+.aeroinfo h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aeroinfoflex {
+    display: flex;
+    margin-top: 75px;
+    text-align: left;
+}
+
+.aeroinfoflex p {
+    margin-bottom: 50px;
+}
+
+.aeroinfoflex img {
+    max-width: 30%;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.aeroinfoflex h2, p {
+    flex-direction: column;
+}
+
+.aeroinfoflex2 {
+    display: flex;
+    margin-top: 75px;
+    text-align: left;
+}
+
+.aeroinfoflex2 img {
+    max-width: 30%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.aeroinfoflex2 h2, p {
+    flex-direction: column;
+}
+
+.dashboard {
+    background-color: rgb(50, 52, 55);
+    margin: 100px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.dashboard img {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dashboard p {
+    margin: 15px;
+}
+
+.dashboardflex {
+    display: flex;
 }
