@@ -97,14 +97,13 @@ footer {
     bottom: 0;
 }
 
-footer p {
-    padding: 5px;
-}
-
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 70%;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 td, th {
@@ -122,6 +121,10 @@ tr:nth-child(odd) {
     background-color: #B12B28;
     opacity: 0.8;
     color: white;
+}
+
+footer p {
+    padding: 5px;
 }
 
 .homeflex {
@@ -194,11 +197,6 @@ tr:nth-child(odd) {
     margin-bottom: 100px;
 }
 
-.aeroinfo h2 {
-    text-align: center;
-    margin-top: 20px;
-}
-
 .aeroinfoflex {
     display: flex;
     margin-top: 75px;
@@ -213,25 +211,10 @@ tr:nth-child(odd) {
     max-width: 30%;
     margin-right: 30px;
     margin-bottom: 50px;
+    margin-left: 30px;
 }
 
 .aeroinfoflex h2, p {
-    flex-direction: column;
-}
-
-.aeroinfoflex2 {
-    display: flex;
-    margin-top: 75px;
-    text-align: left;
-}
-
-.aeroinfoflex2 img {
-    max-width: 30%;
-    margin-left: 30px;
-    margin-bottom: 50px;
-}
-
-.aeroinfoflex2 h2, p {
     flex-direction: column;
 }
 
@@ -255,4 +238,25 @@ tr:nth-child(odd) {
 
 .dashboardflex {
     display: flex;
+}
+
+.priceinfo {
+    background-color: rgb(50, 52, 55);
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.priceinfo img {
+    max-width: 30%;
+    margin-left: 50px;
+}
+
+.priceinfo p {
+    margin-bottom: 30px;
 }
